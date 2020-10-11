@@ -1,11 +1,12 @@
 
 from pathlib import Path
+from decouple import Config
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'p@5_z+l=s+ej@f@u$3nf&99!qy5%z^^d3o_9vsnb&n0^qxd%v&'
-
-DEBUG = True
+SECRET_KEY = Config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = []
 
