@@ -1,0 +1,3 @@
+link do certificado do curso
+
+http://www.schoolofnet.com/validar-certificado/?certificate=5ef232a4-2568-4969-9745-95d6f25b3303
